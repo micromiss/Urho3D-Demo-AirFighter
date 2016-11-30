@@ -1,0 +1,680 @@
+The system is: Windows - 10.0.14393 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/11/21 21:42:39。
+节点 1 上的项目“D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CompilerIdC\CompilerIdC.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdC.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdC.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=E:\Visual Studio 2015\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdC.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CompilerIdC\CompilerIdC.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.53
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/Project/Urho3D/AirFighter/CMakeFiles/3.6.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/11/21 21:42:39。
+节点 1 上的项目“D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdCXX.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=E:\Visual Studio 2015\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.51
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/Project/Urho3D/AirFighter/CMakeFiles/3.6.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_fc1d0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/11/21 21:42:40。
+节点 1 上的项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_fc1d0.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_fc1d0.dir\Debug\”。
+  正在创建目录“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_fc1d0.dir\Debug\cmTC_fc1d0.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_fc1d0.dir\Debug\cmTC_fc1d0.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc1d0.dir\Debug\\" /Fd"cmTC_fc1d0.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\testCCompiler.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc1d0.dir\Debug\\" /Fd"cmTC_fc1d0.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_fc1d0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_fc1d0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_fc1d0.lib" /MACHINE:X64  /machine:x64 cmTC_fc1d0.dir\Debug\testCCompiler.obj
+  cmTC_fc1d0.vcxproj -> D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_fc1d0.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_fc1d0.dir\Debug\cmTC_fc1d0.tlog\unsuccessfulbuild”。
+  正在对“cmTC_fc1d0.dir\Debug\cmTC_fc1d0.tlog\cmTC_fc1d0.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_fc1d0.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.54
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b26db.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/11/21 21:42:41。
+节点 1 上的项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_b26db.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b26db.dir\Debug\”。
+  正在创建目录“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b26db.dir\Debug\cmTC_b26db.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b26db.dir\Debug\cmTC_b26db.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b26db.dir\Debug\\" /Fd"cmTC_b26db.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b26db.dir\Debug\\" /Fd"cmTC_b26db.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "E:\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_b26db.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_b26db.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_b26db.lib" /MACHINE:X64  /machine:x64 cmTC_b26db.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_b26db.vcxproj -> D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_b26db.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_b26db.dir\Debug\cmTC_b26db.tlog\unsuccessfulbuild”。
+  正在对“cmTC_b26db.dir\Debug\cmTC_b26db.tlog\cmTC_b26db.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_b26db.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.52
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ab66b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/11/21 21:42:42。
+节点 1 上的项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_ab66b.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_ab66b.dir\Debug\”。
+  正在创建目录“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_ab66b.dir\Debug\cmTC_ab66b.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_ab66b.dir\Debug\cmTC_ab66b.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ab66b.dir\Debug\\" /Fd"cmTC_ab66b.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ab66b.dir\Debug\\" /Fd"cmTC_ab66b.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_ab66b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_ab66b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_ab66b.lib" /MACHINE:X64  /machine:x64 cmTC_ab66b.dir\Debug\testCXXCompiler.obj
+  cmTC_ab66b.vcxproj -> D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_ab66b.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_ab66b.dir\Debug\cmTC_ab66b.tlog\unsuccessfulbuild”。
+  正在对“cmTC_ab66b.dir\Debug\cmTC_ab66b.tlog\cmTC_ab66b.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_ab66b.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.56
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_99d96.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/11/21 21:42:42。
+节点 1 上的项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_99d96.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_99d96.dir\Debug\”。
+  正在创建目录“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_99d96.dir\Debug\cmTC_99d96.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_99d96.dir\Debug\cmTC_99d96.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_99d96.dir\Debug\\" /Fd"cmTC_99d96.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_99d96.dir\Debug\\" /Fd"cmTC_99d96.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "E:\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_99d96.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_99d96.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_99d96.lib" /MACHINE:X64  /machine:x64 cmTC_99d96.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_99d96.vcxproj -> D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_99d96.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_99d96.dir\Debug\cmTC_99d96.tlog\unsuccessfulbuild”。
+  正在对“cmTC_99d96.dir\Debug\cmTC_99d96.tlog\cmTC_99d96.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_99d96.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.55
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_41430.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/11/21 21:42:43。
+节点 1 上的项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_41430.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_41430.dir\Debug\”。
+  正在创建目录“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_41430.dir\Debug\cmTC_41430.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_41430.dir\Debug\cmTC_41430.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_41430.dir\Debug\\" /Fd"cmTC_41430.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\feature_tests.cxx
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_41430.dir\Debug\\" /Fd"cmTC_41430.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_41430.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_41430.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_41430.lib" /MACHINE:X64  /machine:x64 cmTC_41430.dir\Debug\feature_tests.obj
+  cmTC_41430.vcxproj -> D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_41430.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_41430.dir\Debug\cmTC_41430.tlog\unsuccessfulbuild”。
+  正在对“cmTC_41430.dir\Debug\cmTC_41430.tlog\cmTC_41430.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_41430.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.54
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Determining if the include file d3dcompiler.h exists passed with the following output:
+Change Dir: D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_10471.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/11/21 21:42:45。
+节点 1 上的项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_10471.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_10471.dir\Debug\”。
+  正在创建目录“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_10471.dir\Debug\cmTC_10471.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_10471.dir\Debug\cmTC_10471.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_10471.dir\Debug\\" /Fd"cmTC_10471.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_10471.dir\Debug\\" /Fd"cmTC_10471.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  
+  CheckIncludeFile.cxx
+Link:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_10471.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_10471.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_10471.lib" /MACHINE:X64  /machine:x64 cmTC_10471.dir\Debug\CheckIncludeFile.obj
+  cmTC_10471.vcxproj -> D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_10471.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_10471.dir\Debug\cmTC_10471.tlog\unsuccessfulbuild”。
+  正在对“cmTC_10471.dir\Debug\cmTC_10471.tlog\cmTC_10471.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_10471.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.84
+
+
+Determining if the include file d3d9.h exists passed with the following output:
+Change Dir: D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_55bc2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/11/21 21:42:46。
+节点 1 上的项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_55bc2.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_55bc2.dir\Debug\”。
+  正在创建目录“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_55bc2.dir\Debug\cmTC_55bc2.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_55bc2.dir\Debug\cmTC_55bc2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_55bc2.dir\Debug\\" /Fd"cmTC_55bc2.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_55bc2.dir\Debug\\" /Fd"cmTC_55bc2.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  
+  CheckIncludeFile.cxx
+Link:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_55bc2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_55bc2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_55bc2.lib" /MACHINE:X64  /machine:x64 cmTC_55bc2.dir\Debug\CheckIncludeFile.obj
+  cmTC_55bc2.vcxproj -> D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_55bc2.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_55bc2.dir\Debug\cmTC_55bc2.tlog\unsuccessfulbuild”。
+  正在对“cmTC_55bc2.dir\Debug\cmTC_55bc2.tlog\cmTC_55bc2.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_55bc2.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.87
+
+
+Determining if the include file d3d11.h exists passed with the following output:
+Change Dir: D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6ede8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/11/21 21:42:47。
+节点 1 上的项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_6ede8.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_6ede8.dir\Debug\”。
+  正在创建目录“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_6ede8.dir\Debug\cmTC_6ede8.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_6ede8.dir\Debug\cmTC_6ede8.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6ede8.dir\Debug\\" /Fd"cmTC_6ede8.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6ede8.dir\Debug\\" /Fd"cmTC_6ede8.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  
+  CheckIncludeFile.cxx
+Link:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_6ede8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_6ede8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_6ede8.lib" /MACHINE:X64  /machine:x64 cmTC_6ede8.dir\Debug\CheckIncludeFile.obj
+  cmTC_6ede8.vcxproj -> D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_6ede8.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_6ede8.dir\Debug\cmTC_6ede8.tlog\unsuccessfulbuild”。
+  正在对“cmTC_6ede8.dir\Debug\cmTC_6ede8.tlog\cmTC_6ede8.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_6ede8.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.88
+
+
+Determining if the include file ddraw.h exists passed with the following output:
+Change Dir: D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_07e1f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/11/21 21:42:48。
+节点 1 上的项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_07e1f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_07e1f.dir\Debug\”。
+  正在创建目录“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_07e1f.dir\Debug\cmTC_07e1f.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_07e1f.dir\Debug\cmTC_07e1f.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_07e1f.dir\Debug\\" /Fd"cmTC_07e1f.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_07e1f.dir\Debug\\" /Fd"cmTC_07e1f.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  
+  CheckIncludeFile.cxx
+Link:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_07e1f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_07e1f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_07e1f.lib" /MACHINE:X64  /machine:x64 cmTC_07e1f.dir\Debug\CheckIncludeFile.obj
+  cmTC_07e1f.vcxproj -> D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_07e1f.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_07e1f.dir\Debug\cmTC_07e1f.tlog\unsuccessfulbuild”。
+  正在对“cmTC_07e1f.dir\Debug\cmTC_07e1f.tlog\cmTC_07e1f.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_07e1f.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.89
+
+
+Determining if the include file dsound.h exists passed with the following output:
+Change Dir: D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cde58.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/11/21 21:42:50。
+节点 1 上的项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_cde58.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_cde58.dir\Debug\”。
+  正在创建目录“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_cde58.dir\Debug\cmTC_cde58.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_cde58.dir\Debug\cmTC_cde58.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cde58.dir\Debug\\" /Fd"cmTC_cde58.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cde58.dir\Debug\\" /Fd"cmTC_cde58.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  
+  CheckIncludeFile.cxx
+Link:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_cde58.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_cde58.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_cde58.lib" /MACHINE:X64  /machine:x64 cmTC_cde58.dir\Debug\CheckIncludeFile.obj
+  cmTC_cde58.vcxproj -> D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_cde58.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_cde58.dir\Debug\cmTC_cde58.tlog\unsuccessfulbuild”。
+  正在对“cmTC_cde58.dir\Debug\cmTC_cde58.tlog\cmTC_cde58.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_cde58.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.86
+
+
+Determining if the include file dinput.h exists passed with the following output:
+Change Dir: D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_60e24.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/11/21 21:42:51。
+节点 1 上的项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_60e24.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_60e24.dir\Debug\”。
+  正在创建目录“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_60e24.dir\Debug\cmTC_60e24.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_60e24.dir\Debug\cmTC_60e24.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_60e24.dir\Debug\\" /Fd"cmTC_60e24.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_60e24.dir\Debug\\" /Fd"cmTC_60e24.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  
+  CheckIncludeFile.cxx
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Link:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_60e24.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_60e24.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_60e24.lib" /MACHINE:X64  /machine:x64 cmTC_60e24.dir\Debug\CheckIncludeFile.obj
+  cmTC_60e24.vcxproj -> D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_60e24.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_60e24.dir\Debug\cmTC_60e24.tlog\unsuccessfulbuild”。
+  正在对“cmTC_60e24.dir\Debug\cmTC_60e24.tlog\cmTC_60e24.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_60e24.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.83
+
+
+Determining if the include file dxgi.h exists passed with the following output:
+Change Dir: D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d9fd2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/11/21 21:42:52。
+节点 1 上的项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_d9fd2.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d9fd2.dir\Debug\”。
+  正在创建目录“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d9fd2.dir\Debug\cmTC_d9fd2.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d9fd2.dir\Debug\cmTC_d9fd2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d9fd2.dir\Debug\\" /Fd"cmTC_d9fd2.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d9fd2.dir\Debug\\" /Fd"cmTC_d9fd2.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  
+  CheckIncludeFile.cxx
+Link:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_d9fd2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_d9fd2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_d9fd2.lib" /MACHINE:X64  /machine:x64 cmTC_d9fd2.dir\Debug\CheckIncludeFile.obj
+  cmTC_d9fd2.vcxproj -> D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_d9fd2.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_d9fd2.dir\Debug\cmTC_d9fd2.tlog\unsuccessfulbuild”。
+  正在对“cmTC_d9fd2.dir\Debug\cmTC_d9fd2.tlog\cmTC_d9fd2.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_d9fd2.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.88
+
+
+Determining if the include file xaudio2.h exists passed with the following output:
+Change Dir: D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_daf5d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/11/21 21:42:53。
+节点 1 上的项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_daf5d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_daf5d.dir\Debug\”。
+  正在创建目录“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_daf5d.dir\Debug\cmTC_daf5d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_daf5d.dir\Debug\cmTC_daf5d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_daf5d.dir\Debug\\" /Fd"cmTC_daf5d.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_daf5d.dir\Debug\\" /Fd"cmTC_daf5d.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  
+  CheckIncludeFile.cxx
+Link:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_daf5d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_daf5d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_daf5d.lib" /MACHINE:X64  /machine:x64 cmTC_daf5d.dir\Debug\CheckIncludeFile.obj
+  cmTC_daf5d.vcxproj -> D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_daf5d.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_daf5d.dir\Debug\cmTC_daf5d.tlog\unsuccessfulbuild”。
+  正在对“cmTC_daf5d.dir\Debug\cmTC_daf5d.tlog\cmTC_daf5d.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_daf5d.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.83
+
+
+Determining if files windows.h;xinput.h exist passed with the following output:
+Change Dir: D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2ccb2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.23107.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/11/21 21:42:54。
+节点 1 上的项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_2ccb2.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_2ccb2.dir\Debug\”。
+  正在创建目录“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_2ccb2.dir\Debug\cmTC_2ccb2.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_2ccb2.dir\Debug\cmTC_2ccb2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ccb2.dir\Debug\\" /Fd"cmTC_2ccb2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.23026 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ccb2.dir\Debug\\" /Fd"cmTC_2ccb2.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+Link:
+  E:\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_2ccb2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_2ccb2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Project/Urho3D/AirFighter/CMakeFiles/CMakeTmp/Debug/cmTC_2ccb2.lib" /MACHINE:X64  /machine:x64 cmTC_2ccb2.dir\Debug\CheckIncludeFiles.obj
+  cmTC_2ccb2.vcxproj -> D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\Debug\cmTC_2ccb2.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_2ccb2.dir\Debug\cmTC_2ccb2.tlog\unsuccessfulbuild”。
+  正在对“cmTC_2ccb2.dir\Debug\cmTC_2ccb2.tlog\cmTC_2ccb2.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\Project\Urho3D\AirFighter\CMakeFiles\CMakeTmp\cmTC_2ccb2.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.76
+
+

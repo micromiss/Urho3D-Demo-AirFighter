@@ -1,0 +1,10 @@
+﻿Build started 2016/11/21 21:43:22.
+     1>Project "D:\Project\Urho3D\AirFighter\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because D:/Project/Urho3D/AirFighter/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "D:\Project\Urho3D\AirFighter\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20

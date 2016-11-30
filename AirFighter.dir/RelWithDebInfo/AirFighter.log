@@ -1,0 +1,783 @@
+﻿Build started 2016/11/25 17:01:31.
+     1>Project "D:\Project\Urho3D\AirFighter\AirFighter.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule D:/Project/Urho3D/AirFighter/CMakeLists.txt
+         CMake does not need to re-run because D:\Project\Urho3D\AirFighter\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         E:\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /I"E:\!Package\Urho3D-Build\include" /I"E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty" /I"E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Bullet" /I"E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Lua" /Zi /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D _SECURE_SCL=0 /D URHO3D_PROFILING /D URHO3D_LOGGING /D URHO3D_THREADING /D URHO3D_ANGELSCRIPT /D URHO3D_LUA /D TOLUA_RELEASE /D URHO3D_NAVIGATION /D URHO3D_NETWORK /D URHO3D_PHYSICS /D URHO3D_URHO2D /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /D _MBCS /Gm- /EHsc /MD /GS- /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"AirFighter.dir\RelWithDebInfo\\" /Fd"AirFighter.dir\RelWithDebInfo\vc140.pdb" /Gd /TP /errorReport:prompt AirFighter.cpp AP.cpp Box.cpp BUFF.cpp Bullet.cpp Effect.cpp Fighter.cpp Effect_Flare.cpp GameObject.cpp HeatSource.cpp Missile.cpp Skill.cpp Skill_Flare.cpp Skill_Missile.cpp Toolkit.cpp
+         AirFighter.cpp
+     1>AirFighter.cpp(164): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+     1>AirFighter.cpp(316): warning C4018: '<': signed/unsigned mismatch
+     1>AirFighter.cpp(468): warning C4018: '<': signed/unsigned mismatch
+         AP.cpp
+         Box.cpp
+         BUFF.cpp
+         Bullet.cpp
+         Effect.cpp
+         Fighter.cpp
+     1>Fighter.cpp(134): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>Fighter.cpp(144): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+         Effect_Flare.cpp
+         GameObject.cpp
+         HeatSource.cpp
+         Missile.cpp
+     1>Missile.cpp(81): warning C4018: '<': signed/unsigned mismatch
+         Skill.cpp
+         Skill_Flare.cpp
+         Skill_Missile.cpp
+         Toolkit.cpp
+         Generating Code...
+     1>d:\project\urho3d\airfighter\box.cpp(98): warning C4700: uninitialized local variable 'otherBody' used
+       Link:
+         E:\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Project\Urho3D\AirFighter\bin\AirFighter.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\!Package\Urho3D-Build\lib\Urho3D_d.lib" user32.lib gdi32.lib winmm.lib imm32.lib ole32.lib oleaut32.lib version.lib uuid.lib ws2_32.lib winmm.lib d3dcompiler.lib d3d9.lib imm32.lib ole32.lib oleaut32.lib version.lib uuid.lib ws2_32.lib d3dcompiler.lib d3d9.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Project/Urho3D/AirFighter/bin/AirFighter.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Project/Urho3D/AirFighter/RelWithDebInfo/AirFighter.lib" /MACHINE:X64  /machine:x64 AirFighter.dir\RelWithDebInfo\AirFighter.obj
+         AirFighter.dir\RelWithDebInfo\AP.obj
+         AirFighter.dir\RelWithDebInfo\Box.obj
+         AirFighter.dir\RelWithDebInfo\BUFF.obj
+         AirFighter.dir\RelWithDebInfo\Bullet.obj
+         AirFighter.dir\RelWithDebInfo\Effect.obj
+         AirFighter.dir\RelWithDebInfo\Fighter.obj
+         AirFighter.dir\RelWithDebInfo\Effect_Flare.obj
+         AirFighter.dir\RelWithDebInfo\GameObject.obj
+         AirFighter.dir\RelWithDebInfo\HeatSource.obj
+         AirFighter.dir\RelWithDebInfo\Missile.obj
+         AirFighter.dir\RelWithDebInfo\Skill.obj
+         AirFighter.dir\RelWithDebInfo\Skill_Flare.obj
+         AirFighter.dir\RelWithDebInfo\Skill_Missile.obj
+         AirFighter.dir\RelWithDebInfo\Toolkit.obj
+     1>Urho3D_d.lib(DataDeserializer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(DataDeserializer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Allocator.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Allocator.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(HashBase.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(HashBase.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(RefCounted.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(RefCounted.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Str.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Str.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Quaternion.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Quaternion.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(StringHash.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(StringHash.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Variant.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Variant.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Object.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Object.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Timer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Timer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Engine.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Engine.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Camera.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Camera.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Image.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Image.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Graphics.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Graphics.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9Graphics.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9Graphics.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Texture.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Texture.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Viewport.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Viewport.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Renderer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Renderer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(XMLFile.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(XMLFile.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(UIElement.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(UIElement.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Input.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Input.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ResourceCache.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ResourceCache.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Node.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Node.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Scene.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Scene.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Text.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Text.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(StaticSprite2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(StaticSprite2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(PhysicsWorld2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(PhysicsWorld2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Controls.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Controls.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Connection.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Connection.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Network.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Network.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Context.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Context.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ProcessUtils.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ProcessUtils.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Application.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Application.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Console.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Console.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(DebugHud.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(DebugHud.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(FileSystem.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(FileSystem.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Sprite.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Sprite.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Texture2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Texture2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9Texture2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9Texture2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Drawable2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Drawable2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Serializable.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Serializable.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Animatable.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Animatable.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Component.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Component.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(CollisionShape2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(CollisionShape2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(CollisionBox2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(CollisionBox2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(RigidBody2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(RigidBody2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(LogicComponent.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(LogicComponent.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Random.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Random.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Vector3.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Vector3.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ParticleEmitter2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ParticleEmitter2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(VectorBase.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(VectorBase.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(CollisionCircle2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(CollisionCircle2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Log.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Log.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(SerializedDataIterator.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(SerializedDataIterator.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Precompiled.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Precompiled.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(StringUtils.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(StringUtils.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Vector2.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Vector2.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Vector4.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Vector4.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Color.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Color.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Matrix3.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Matrix3.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Matrix4.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Matrix4.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Matrix3x4.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Matrix3x4.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Rect.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Rect.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(VectorBuffer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(VectorBuffer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Thread.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Thread.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Profiler.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Profiler.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Audio.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Audio.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(EventProfiler.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(EventProfiler.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(WorkQueue.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(WorkQueue.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(NavigationMesh.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(NavigationMesh.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(PhysicsWorld.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(PhysicsWorld.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Localization.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Localization.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(UI.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(UI.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Urho2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Urho2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Plane.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Plane.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Frustum.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Frustum.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(DebugRenderer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(DebugRenderer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Deserializer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Deserializer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(File.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(File.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Resource.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Resource.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Decompress.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Decompress.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Model.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Model.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Drawable.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Drawable.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(StaticModel.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(StaticModel.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(AnimatedModel.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(AnimatedModel.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Animation.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Animation.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(AnimationController.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(AnimationController.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(CustomGeometry.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(CustomGeometry.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(DecalSet.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(DecalSet.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Mutex.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Mutex.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Light.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Light.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Material.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Material.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Octree.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Octree.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ParticleEffect.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ParticleEffect.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(BillboardSet.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(BillboardSet.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ParticleEmitter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ParticleEmitter.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(RibbonTrail.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(RibbonTrail.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Shader.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Shader.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ShaderPrecache.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ShaderPrecache.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Skybox.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Skybox.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(StaticModelGroup.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(StaticModelGroup.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Technique.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Technique.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Terrain.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Terrain.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(TerrainPatch.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(TerrainPatch.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Texture2DArray.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Texture2DArray.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Texture3D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Texture3D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(TextureCube.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(TextureCube.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Zone.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Zone.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9ShaderVariation.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9ShaderVariation.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9VertexDeclaration.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9VertexDeclaration.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9GraphicsImpl.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9GraphicsImpl.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(RenderSurface.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(RenderSurface.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(GPUObject.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(GPUObject.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9Texture.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9Texture.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(XMLElement.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(XMLElement.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(RenderPath.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(RenderPath.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(View.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(View.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(BoundingBox.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(BoundingBox.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Geometry.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Geometry.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(IndexBuffer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(IndexBuffer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9IndexBuffer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9IndexBuffer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(OcclusionBuffer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(OcclusionBuffer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9TextureCube.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9TextureCube.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(VertexBuffer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(VertexBuffer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9VertexBuffer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9VertexBuffer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(GraphicsDefs.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(GraphicsDefs.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Serializer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Serializer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(MemoryBuffer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(MemoryBuffer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(pugixml.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(pugixml.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(UIBatch.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(UIBatch.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(FileWatcher.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(FileWatcher.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(PackageFile.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(PackageFile.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(BackgroundLoader.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(BackgroundLoader.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(JSONFile.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(JSONFile.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(PListFile.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(PListFile.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(JSONValue.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(JSONValue.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(SceneResolver.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(SceneResolver.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(SmoothedTransform.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(SmoothedTransform.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(UnknownComponent.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(UnknownComponent.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ObjectAnimation.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ObjectAnimation.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(SplinePath.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(SplinePath.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ValueAnimation.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ValueAnimation.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Font.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Font.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(FontFace.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(FontFace.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Renderer2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Renderer2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Sprite2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Sprite2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2World.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2World.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(NetworkPriority.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(NetworkPriority.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(MessageConnection.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(MessageConnection.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(HttpRequest.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(HttpRequest.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(NetworkServer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(NetworkServer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Network.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Network.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Swap.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Swap.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(DropDownList.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(DropDownList.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(LineEdit.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(LineEdit.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ListView.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ListView.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9RenderSurface.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9RenderSurface.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ValueAnimationInfo.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ValueAnimationInfo.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2Body.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2Body.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2Fixture.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2Fixture.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2PolygonShape.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2PolygonShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Constraint2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Constraint2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2CircleShape.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2CircleShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Sound.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Sound.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(SoundListener.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(SoundListener.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(SoundSource.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(SoundSource.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(SoundSource3D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(SoundSource3D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(CrowdManager.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(CrowdManager.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(CrowdAgent.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(CrowdAgent.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(DynamicNavigationMesh.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(DynamicNavigationMesh.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(NavArea.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(NavArea.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(NavBuildData.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(NavBuildData.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Navigable.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Navigable.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Obstacle.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Obstacle.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(OffMeshConnection.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(OffMeshConnection.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(CollisionShape.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(CollisionShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(DetourNavMesh.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(DetourNavMesh.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(DetourNavMeshQuery.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(DetourNavMeshQuery.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(RecastRegion.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(RecastRegion.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Constraint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Constraint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(RigidBody.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(RigidBody.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btDbvtBroadphase.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btDbvtBroadphase.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btDefaultCollisionConfiguration.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btDefaultCollisionConfiguration.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btInternalEdgeUtility.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btInternalEdgeUtility.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btCollisionShape.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btCollisionShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btConvexShape.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btConvexShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btPolyhedralConvexShape.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btPolyhedralConvexShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btCollisionObject.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btCollisionObject.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btRigidBody.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btRigidBody.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btSequentialImpulseConstraintSolver.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btSequentialImpulseConstraintSolver.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btCollisionDispatcher.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btCollisionDispatcher.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btCollisionWorld.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btCollisionWorld.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btDiscreteDynamicsWorld.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btDiscreteDynamicsWorld.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btManifoldResult.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btManifoldResult.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(BorderImage.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(BorderImage.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Cursor.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Cursor.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(CheckBox.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(CheckBox.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Button.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Button.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Menu.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Menu.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(FileSelector.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(FileSelector.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ScrollView.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ScrollView.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(MessageBox.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(MessageBox.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ScrollBar.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ScrollBar.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Slider.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Slider.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Text3D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Text3D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ToolTip.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ToolTip.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Window.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Window.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(View3D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(View3D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(AnimatedSprite2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(AnimatedSprite2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(AnimationSet2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(AnimationSet2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(CollisionChain2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(CollisionChain2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(CollisionEdge2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(CollisionEdge2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(CollisionPolygon2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(CollisionPolygon2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintDistance2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintDistance2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintFriction2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintFriction2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintGear2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintGear2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintMotor2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintMotor2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintMouse2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintMouse2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintPrismatic2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintPrismatic2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintPulley2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintPulley2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintRevolute2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintRevolute2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintRope2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintRope2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintWeld2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintWeld2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintWheel2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ConstraintWheel2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ParticleEffect2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ParticleEffect2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(SpriteSheet2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(SpriteSheet2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(TileMap2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(TileMap2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(TileMapLayer2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(TileMapLayer2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(TmxFile2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(TmxFile2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Skeleton.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Skeleton.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Ray.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Ray.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(AnimationState.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(AnimationState.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Tangent.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Tangent.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(MathDefs.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(MathDefs.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(ShaderVariation.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(ShaderVariation.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9Texture2DArray.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9Texture2DArray.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9Texture3D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(D3D9Texture3D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(OctreeQuery.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(OctreeQuery.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Sphere.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Sphere.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Batch.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Batch.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Polyhedron.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Polyhedron.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Spline.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Spline.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(FontFaceBitmap.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(FontFaceBitmap.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(FontFaceFreeType.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(FontFaceFreeType.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2BlockAllocator.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2BlockAllocator.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2DynamicTree.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2DynamicTree.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2BroadPhase.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2BroadPhase.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2ContactManager.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2ContactManager.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2Island.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2Island.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2Joint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2Joint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2PulleyJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2PulleyJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2Contact.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2Contact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(W32Event.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(W32Event.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Socket.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Socket.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(NetworkLogging.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(NetworkLogging.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(NetworkSimulator.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(NetworkSimulator.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(FragmentedTransferManager.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(FragmentedTransferManager.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(NetworkMessage.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(NetworkMessage.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(TCPMessageConnection.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(TCPMessageConnection.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(UDPMessageConnection.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(UDPMessageConnection.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(W32Thread.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(W32Thread.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(NetworkWorkerThread.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(NetworkWorkerThread.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(OggVorbisSoundStream.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(OggVorbisSoundStream.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(SoundStream.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(SoundStream.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(DetourCrowd.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(DetourCrowd.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(DetourTileCache.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(DetourTileCache.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btCompoundShape.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btCompoundShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btConvexHullShape.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btConvexHullShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btStridingMeshInterface.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btStridingMeshInterface.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btBvhTriangleMeshShape.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btBvhTriangleMeshShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btScaledBvhTriangleMeshShape.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btScaledBvhTriangleMeshShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btTriangleIndexVertexArray.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btTriangleIndexVertexArray.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btTypedConstraint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btTypedConstraint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btConeTwistConstraint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btConeTwistConstraint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btHingeConstraint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btHingeConstraint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btPoint2PointConstraint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btPoint2PointConstraint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btSliderConstraint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btSliderConstraint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btDbvt.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btDbvt.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btOverlappingPairCache.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btOverlappingPairCache.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btConvexConvexAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btConvexConvexAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btEmptyCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btEmptyCollisionAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btConvexConcaveCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btConvexConcaveCollisionAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btCompoundCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btCompoundCollisionAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btCompoundCompoundCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btCompoundCompoundCollisionAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btConvexPlaneCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btConvexPlaneCollisionAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btBoxBoxCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btBoxBoxCollisionAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btSphereSphereCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btSphereSphereCollisionAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btSphereTriangleCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btSphereTriangleCollisionAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btConvexPolyhedron.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btConvexPolyhedron.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btConvexHullComputer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btConvexHullComputer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btGeometryUtil.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btGeometryUtil.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btSimulationIslandManager.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btSimulationIslandManager.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btGeneric6DofConstraint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btGeneric6DofConstraint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(SpriterInstance2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(SpriterInstance2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(AreaAllocator.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(AreaAllocator.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(SpriterData2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(SpriterData2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2ChainShape.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2ChainShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2EdgeShape.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2EdgeShape.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2DistanceJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2DistanceJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2FrictionJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2FrictionJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2MotorJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2MotorJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2MouseJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2MouseJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2PrismaticJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2PrismaticJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2RevoluteJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2RevoluteJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2WeldJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2WeldJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2WheelJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2WheelJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(TileMapDefs2D.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(TileMapDefs2D.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2WorldCallbacks.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2WorldCallbacks.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2ContactSolver.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2ContactSolver.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2GearJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2GearJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2RopeJoint.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2RopeJoint.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2CircleContact.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2CircleContact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2PolygonAndCircleContact.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2PolygonAndCircleContact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2PolygonContact.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2PolygonContact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2EdgeAndCircleContact.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2EdgeAndCircleContact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2EdgeAndPolygonContact.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2EdgeAndPolygonContact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2ChainAndCircleContact.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2ChainAndCircleContact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(b2ChainAndPolygonContact.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(b2ChainAndPolygonContact.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(DataSerializer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(DataSerializer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(Thread.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(Thread.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(W32EventArray.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(W32EventArray.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(DetourObstacleAvoidance.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(DetourObstacleAvoidance.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(DetourProximityGrid.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(DetourProximityGrid.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btQuantizedBvh.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btQuantizedBvh.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btOptimizedBvh.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btOptimizedBvh.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btActivatingCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btActivatingCollisionAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btPolyhedralContactClipping.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btPolyhedralContactClipping.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btCollisionAlgorithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btCollisionAlgorithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btHashedSimplePairCache.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btHashedSimplePairCache.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+     1>Urho3D_d.lib(btUnionFind.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '2' doesn't match value '0' in AirFighter.obj
+     1>Urho3D_d.lib(btUnionFind.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MDd_DynamicDebug' doesn't match value 'MD_DynamicRelease' in AirFighter.obj
+            Creating library D:/Project/Urho3D/AirFighter/RelWithDebInfo/AirFighter.lib and object D:/Project/Urho3D/AirFighter/RelWithDebInfo/AirFighter.exp
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>Urho3D_d.lib(NetworkWorkerThread.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+     1>Urho3D_d.lib(DataSerializer.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+     1>Urho3D_d.lib(Thread.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+     1>Urho3D_d.lib(FragmentedTransferManager.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+     1>Urho3D_d.lib(TCPMessageConnection.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+     1>Urho3D_d.lib(UDPMessageConnection.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+     1>Urho3D_d.lib(W32Thread.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+     1>Urho3D_d.lib(Network.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+     1>Urho3D_d.lib(Socket.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+     1>Urho3D_d.lib(NetworkLogging.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+     1>Urho3D_d.lib(NetworkSimulator.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+     1>Urho3D_d.lib(DataDeserializer.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+     1>Urho3D_d.lib(SerializedDataIterator.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+     1>Urho3D_d.lib(MessageConnection.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+     1>Urho3D_d.lib(NetworkServer.obj) : error LNK2001: unresolved external symbol __imp__invalid_parameter
+     1>Urho3D_d.lib(Thread.obj) : error LNK2001: unresolved external symbol __imp__free_dbg
+     1>Urho3D_d.lib(W32EventArray.obj) : error LNK2001: unresolved external symbol __imp__free_dbg
+     1>Urho3D_d.lib(UDPMessageConnection.obj) : error LNK2001: unresolved external symbol __imp__free_dbg
+     1>Urho3D_d.lib(W32Thread.obj) : error LNK2001: unresolved external symbol __imp__free_dbg
+     1>Urho3D_d.lib(NetworkWorkerThread.obj) : error LNK2001: unresolved external symbol __imp__free_dbg
+     1>Urho3D_d.lib(DataSerializer.obj) : error LNK2001: unresolved external symbol __imp__free_dbg
+     1>Urho3D_d.lib(NetworkLogging.obj) : error LNK2001: unresolved external symbol __imp__free_dbg
+     1>Urho3D_d.lib(FragmentedTransferManager.obj) : error LNK2001: unresolved external symbol __imp__free_dbg
+     1>Urho3D_d.lib(NetworkMessage.obj) : error LNK2001: unresolved external symbol __imp__free_dbg
+     1>Urho3D_d.lib(TCPMessageConnection.obj) : error LNK2001: unresolved external symbol __imp__free_dbg
+     1>Urho3D_d.lib(NetworkServer.obj) : error LNK2001: unresolved external symbol __imp__free_dbg
+     1>Urho3D_d.lib(Network.obj) : error LNK2001: unresolved external symbol __imp__free_dbg
+     1>Urho3D_d.lib(W32Event.obj) : error LNK2001: unresolved external symbol __imp__free_dbg
+     1>Urho3D_d.lib(Socket.obj) : error LNK2001: unresolved external symbol __imp__free_dbg
+     1>Urho3D_d.lib(DataDeserializer.obj) : error LNK2001: unresolved external symbol __imp__free_dbg
+     1>Urho3D_d.lib(Image.obj) : error LNK2001: unresolved external symbol __imp__free_dbg
+     1>Urho3D_d.lib(SerializedDataIterator.obj) : error LNK2001: unresolved external symbol __imp__free_dbg
+     1>Urho3D_d.lib(MessageConnection.obj) : error LNK2001: unresolved external symbol __imp__free_dbg
+     1>Urho3D_d.lib(W32EventArray.obj) : error LNK2001: unresolved external symbol __imp__malloc_dbg
+     1>Urho3D_d.lib(W32Thread.obj) : error LNK2001: unresolved external symbol __imp__malloc_dbg
+     1>Urho3D_d.lib(NetworkWorkerThread.obj) : error LNK2001: unresolved external symbol __imp__malloc_dbg
+     1>Urho3D_d.lib(DataSerializer.obj) : error LNK2001: unresolved external symbol __imp__malloc_dbg
+     1>Urho3D_d.lib(Thread.obj) : error LNK2001: unresolved external symbol __imp__malloc_dbg
+     1>Urho3D_d.lib(FragmentedTransferManager.obj) : error LNK2001: unresolved external symbol __imp__malloc_dbg
+     1>Urho3D_d.lib(NetworkMessage.obj) : error LNK2001: unresolved external symbol __imp__malloc_dbg
+     1>Urho3D_d.lib(TCPMessageConnection.obj) : error LNK2001: unresolved external symbol __imp__malloc_dbg
+     1>Urho3D_d.lib(UDPMessageConnection.obj) : error LNK2001: unresolved external symbol __imp__malloc_dbg
+     1>Urho3D_d.lib(Network.obj) : error LNK2001: unresolved external symbol __imp__malloc_dbg
+     1>Urho3D_d.lib(W32Event.obj) : error LNK2001: unresolved external symbol __imp__malloc_dbg
+     1>Urho3D_d.lib(Socket.obj) : error LNK2001: unresolved external symbol __imp__malloc_dbg
+     1>Urho3D_d.lib(NetworkLogging.obj) : error LNK2001: unresolved external symbol __imp__malloc_dbg
+     1>Urho3D_d.lib(DataDeserializer.obj) : error LNK2001: unresolved external symbol __imp__malloc_dbg
+     1>Urho3D_d.lib(SerializedDataIterator.obj) : error LNK2001: unresolved external symbol __imp__malloc_dbg
+     1>Urho3D_d.lib(MessageConnection.obj) : error LNK2001: unresolved external symbol __imp__malloc_dbg
+     1>Urho3D_d.lib(NetworkServer.obj) : error LNK2001: unresolved external symbol __imp__malloc_dbg
+     1>Urho3D_d.lib(NetworkWorkerThread.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReportW
+     1>Urho3D_d.lib(DataSerializer.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReportW
+     1>Urho3D_d.lib(Thread.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReportW
+     1>Urho3D_d.lib(FragmentedTransferManager.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReportW
+     1>Urho3D_d.lib(TCPMessageConnection.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReportW
+     1>Urho3D_d.lib(UDPMessageConnection.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReportW
+     1>Urho3D_d.lib(W32Thread.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReportW
+     1>Urho3D_d.lib(Network.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReportW
+     1>Urho3D_d.lib(Socket.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReportW
+     1>Urho3D_d.lib(NetworkLogging.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReportW
+     1>Urho3D_d.lib(NetworkSimulator.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReportW
+     1>Urho3D_d.lib(DataDeserializer.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReportW
+     1>Urho3D_d.lib(SerializedDataIterator.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReportW
+     1>Urho3D_d.lib(MessageConnection.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReportW
+     1>Urho3D_d.lib(NetworkServer.obj) : error LNK2001: unresolved external symbol __imp__CrtDbgReportW
+     1>Urho3D_d.lib(Engine.obj) : error LNK2019: unresolved external symbol __imp__CrtMemCheckpoint referenced in function "public: void __cdecl Urho3D::Engine::DumpMemory(void)" (?DumpMemory@Engine@Urho3D@@QEAAXXZ)
+     1>Urho3D_d.lib(NetworkLogging.obj) : error LNK2019: unresolved external symbol __imp__CrtSetDbgFlag referenced in function "void __cdecl kNet::EnableMemoryLeakLoggingAtExit(void)" (?EnableMemoryLeakLoggingAtExit@kNet@@YAXXZ)
+     1>Urho3D_d.lib(NetworkLogging.obj) : error LNK2019: unresolved external symbol __imp__CrtSetReportFile referenced in function "void __cdecl kNet::EnableMemoryLeakLoggingAtExit(void)" (?EnableMemoryLeakLoggingAtExit@kNet@@YAXXZ)
+     1>Urho3D_d.lib(NetworkLogging.obj) : error LNK2019: unresolved external symbol __imp__CrtSetReportMode referenced in function "void __cdecl kNet::EnableMemoryLeakLoggingAtExit(void)" (?EnableMemoryLeakLoggingAtExit@kNet@@YAXXZ)
+     1>D:\Project\Urho3D\AirFighter\bin\AirFighter.exe : fatal error LNK1120: 8 unresolved externals
+     1>Done Building Project "D:\Project\Urho3D\AirFighter\AirFighter.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:12.58

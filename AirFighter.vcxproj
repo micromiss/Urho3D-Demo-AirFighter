@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{D4439D8E-417D-3EE4-BF95-276D67E26FC5}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>AirFighter</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\Urho3D\AirFighter\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AirFighter.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AirFighter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\Urho3D\AirFighter\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AirFighter.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">AirFighter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\Urho3D\AirFighter\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AirFighter.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AirFighter_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\!Package\Urho3D-Build\include;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Bullet;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;URHO3D_PROFILING;URHO3D_LOGGING;URHO3D_THREADING;URHO3D_ANGELSCRIPT;URHO3D_LUA;TOLUA_RELEASE;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_URHO2D;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;URHO3D_PROFILING;URHO3D_LOGGING;URHO3D_THREADING;URHO3D_ANGELSCRIPT;URHO3D_LUA;TOLUA_RELEASE;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_URHO2D;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\!Package\Urho3D-Build\include;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Bullet;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\!Package\Urho3D-Build\include;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Bullet;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+E:\CMake\bin\cmake.exe -E copy_if_different "C:/Program Files (x86)/Windows Kits/8.1/Redist/D3D/x64/d3dcompiler_47.dll" D:/Project/Urho3D/AirFighter/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;E:\!Package\Urho3D-Build\lib\Urho3D_d.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;winmm.lib;d3dcompiler.lib;d3d9.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;d3dcompiler.lib;d3d9.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/Urho3D/AirFighter/Release/AirFighter.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>D:/Project/Urho3D/AirFighter/bin/AirFighter.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\!Package\Urho3D-Build\include;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Bullet;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;URHO3D_PROFILING;URHO3D_LOGGING;URHO3D_THREADING;URHO3D_ANGELSCRIPT;URHO3D_LUA;TOLUA_RELEASE;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_URHO2D;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;URHO3D_PROFILING;URHO3D_LOGGING;URHO3D_THREADING;URHO3D_ANGELSCRIPT;URHO3D_LUA;TOLUA_RELEASE;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_URHO2D;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\!Package\Urho3D-Build\include;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Bullet;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\!Package\Urho3D-Build\include;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Bullet;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+E:\CMake\bin\cmake.exe -E copy_if_different "C:/Program Files (x86)/Windows Kits/8.1/Redist/D3D/x64/d3dcompiler_47.dll" D:/Project/Urho3D/AirFighter/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;E:\!Package\Urho3D-Build\lib\Urho3D_d.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;winmm.lib;d3dcompiler.lib;d3d9.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;d3dcompiler.lib;d3d9.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/Urho3D/AirFighter/RelWithDebInfo/AirFighter.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>D:/Project/Urho3D/AirFighter/bin/AirFighter.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\!Package\Urho3D-Build\include;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Bullet;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;URHO3D_PROFILING;URHO3D_LOGGING;URHO3D_THREADING;URHO3D_ANGELSCRIPT;URHO3D_LUA;TOLUA_RELEASE;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_URHO2D;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;URHO3D_PROFILING;URHO3D_LOGGING;URHO3D_THREADING;URHO3D_ANGELSCRIPT;URHO3D_LUA;TOLUA_RELEASE;URHO3D_NAVIGATION;URHO3D_NETWORK;URHO3D_PHYSICS;URHO3D_URHO2D;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\!Package\Urho3D-Build\include;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Bullet;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\!Package\Urho3D-Build\include;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Bullet;E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+E:\CMake\bin\cmake.exe -E copy_if_different "C:/Program Files (x86)/Windows Kits/8.1/Redist/D3D/x64/d3dcompiler_47.dll" D:/Project/Urho3D/AirFighter/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;E:\!Package\Urho3D-Build\lib\Urho3D_d.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;winmm.lib;d3dcompiler.lib;d3d9.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;ws2_32.lib;d3dcompiler.lib;d3d9.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/Urho3D/AirFighter/Debug/AirFighter_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/Urho3D/AirFighter/bin/AirFighter_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\Urho3D\AirFighter\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/Urho3D/AirFighter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\CMake\bin\cmake.exe -HD:/Project/Urho3D/AirFighter -BD:/Project/Urho3D/AirFighter --check-stamp-file D:\Project\Urho3D\AirFighter\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Project/Urho3D/AirFighter/CMakeLists.txt;D:\Project\Urho3D\AirFighter\CMakeLists.txt;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineSystem.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeSystem.cmake.in;D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CMakeSystem.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerId.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCompilerIdDetection.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\GNU-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\TI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.6\Modules\CompilerId\VS-10.vcxproj.in;E:\CMake\share\cmake-3.6\Modules\CMakeFindBinUtils.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CMakeCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCXXCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\Windows-CXX.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerId.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCompilerIdDetection.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\GNU-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\TI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.6\Modules\CompilerId\VS-10.vcxproj.in;E:\CMake\share\cmake-3.6\Modules\CMakeFindBinUtils.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCXXCompiler.cmake.in;D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineRCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeRCCompiler.cmake.in;D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeTestRCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeTestCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeTestCompilerCommon.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerABI.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseImplicitLinkInfo.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompileFeatures.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CMakeCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeTestCXXCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeTestCompilerCommon.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerABI.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseImplicitLinkInfo.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompileFeatures.cmake;E:\CMake\share\cmake-3.6\Modules\Internal\FeatureTesting.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\Project\Urho3D\AirFighter\CMakeFiles\feature_tests.cxx;E:\CMake\share\cmake-3.6\Modules\CMakeCXXCompiler.cmake.in;D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\Urho3D-CMake-common.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\CheckHost.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\CheckCompilerToolchain.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDependentOption.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\FindUrho3D.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\CheckUrho3DLibrary.cpp;E:\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\FindDirectX.cmake;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFiles.cmake;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFileCXX.cmake;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CMakeConfigurableFile.in;E:\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\GenerateExportHeader.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\CMake\share\cmake-3.6\Modules\CheckCXXCompilerFlag.cmake;E:\CMake\share\cmake-3.6\Modules\CheckCXXSourceCompiles.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Project\Urho3D\AirFighter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\Urho3D\AirFighter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/Urho3D/AirFighter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\CMake\bin\cmake.exe -HD:/Project/Urho3D/AirFighter -BD:/Project/Urho3D/AirFighter --check-stamp-file D:\Project\Urho3D\AirFighter\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Project/Urho3D/AirFighter/CMakeLists.txt;D:\Project\Urho3D\AirFighter\CMakeLists.txt;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineSystem.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeSystem.cmake.in;D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CMakeSystem.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerId.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCompilerIdDetection.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\GNU-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\TI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.6\Modules\CompilerId\VS-10.vcxproj.in;E:\CMake\share\cmake-3.6\Modules\CMakeFindBinUtils.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CMakeCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCXXCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\Windows-CXX.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerId.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCompilerIdDetection.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\GNU-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\TI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.6\Modules\CompilerId\VS-10.vcxproj.in;E:\CMake\share\cmake-3.6\Modules\CMakeFindBinUtils.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCXXCompiler.cmake.in;D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineRCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeRCCompiler.cmake.in;D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeTestRCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeTestCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeTestCompilerCommon.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerABI.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseImplicitLinkInfo.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompileFeatures.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CMakeCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeTestCXXCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeTestCompilerCommon.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerABI.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseImplicitLinkInfo.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompileFeatures.cmake;E:\CMake\share\cmake-3.6\Modules\Internal\FeatureTesting.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\Project\Urho3D\AirFighter\CMakeFiles\feature_tests.cxx;E:\CMake\share\cmake-3.6\Modules\CMakeCXXCompiler.cmake.in;D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\Urho3D-CMake-common.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\CheckHost.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\CheckCompilerToolchain.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDependentOption.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\FindUrho3D.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\CheckUrho3DLibrary.cpp;E:\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\FindDirectX.cmake;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFiles.cmake;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFileCXX.cmake;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CMakeConfigurableFile.in;E:\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\GenerateExportHeader.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\CMake\share\cmake-3.6\Modules\CheckCXXCompilerFlag.cmake;E:\CMake\share\cmake-3.6\Modules\CheckCXXSourceCompiles.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Project\Urho3D\AirFighter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\Urho3D\AirFighter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/Urho3D/AirFighter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\CMake\bin\cmake.exe -HD:/Project/Urho3D/AirFighter -BD:/Project/Urho3D/AirFighter --check-stamp-file D:\Project\Urho3D\AirFighter\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Project/Urho3D/AirFighter/CMakeLists.txt;D:\Project\Urho3D\AirFighter\CMakeLists.txt;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineSystem.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeSystem.cmake.in;D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CMakeSystem.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerId.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCompilerIdDetection.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\GNU-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\TI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.6\Modules\CompilerId\VS-10.vcxproj.in;E:\CMake\share\cmake-3.6\Modules\CMakeFindBinUtils.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CMakeCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCXXCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\Windows-CXX.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerId.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCompilerIdDetection.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\GNU-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\TI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.6\Modules\CompilerId\VS-10.vcxproj.in;E:\CMake\share\cmake-3.6\Modules\CMakeFindBinUtils.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCXXCompiler.cmake.in;D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineRCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeRCCompiler.cmake.in;D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeTestRCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeTestCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeTestCompilerCommon.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerABI.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseImplicitLinkInfo.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompileFeatures.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCCompiler.cmake.in;D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CMakeCCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeTestCXXCompiler.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeTestCompilerCommon.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompilerABI.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseImplicitLinkInfo.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp;E:\CMake\share\cmake-3.6\Modules\CMakeDetermineCompileFeatures.cmake;E:\CMake\share\cmake-3.6\Modules\Internal\FeatureTesting.cmake;E:\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\Project\Urho3D\AirFighter\CMakeFiles\feature_tests.cxx;E:\CMake\share\cmake-3.6\Modules\CMakeCXXCompiler.cmake.in;D:\Project\Urho3D\AirFighter\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\Urho3D-CMake-common.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\CheckHost.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\CheckCompilerToolchain.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeDependentOption.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\FindUrho3D.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\CheckUrho3DLibrary.cpp;E:\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\FindDirectX.cmake;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFiles.cmake;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFileCXX.cmake;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CheckIncludeFile.cxx.in;E:\CMake\share\cmake-3.6\Modules\CMakeConfigurableFile.in;E:\CMake\share\cmake-3.6\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.6\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;D:\Project\Urho3D\AirFighter\CMake\Modules\GenerateExportHeader.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeParseArguments.cmake;E:\CMake\share\cmake-3.6\Modules\CheckCXXCompilerFlag.cmake;E:\CMake\share\cmake-3.6\Modules\CheckCXXSourceCompiles.cmake;E:\CMake\share\cmake-3.6\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Project\Urho3D\AirFighter\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\Urho3D\AirFighter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Project\Urho3D\AirFighter\bin\CoreData" />
+    <None Include="D:\Project\Urho3D\AirFighter\bin\Data" />
+    <None Include="Sample.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Project/Urho3D/AirFighter/ZERO_CHECK.vcxproj">
+      <Project>90AF2311-A02B-364C-86E9-8B415460CB43</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AirFighter.h" />
+    <ClInclude Include="AP.h" />
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="BUFF.h" />
+    <ClInclude Include="BUFFList.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="ControlsList.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="Effect_Blink.h" />
+    <ClInclude Include="Effect_Boom.h" />
+    <ClInclude Include="Fighter.h" />
+    <ClInclude Include="Effect_Flare.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="HeatSource.h" />
+    <ClInclude Include="Missile.h" />
+    <ClInclude Include="RemoteEvents.h" />
+    <ClInclude Include="Sample.h" />
+    <ClInclude Include="Skill.h" />
+    <ClInclude Include="Skill_Blink.h" />
+    <ClInclude Include="Skill_Flare.h" />
+    <ClInclude Include="Skill_Missile.h" />
+    <ClInclude Include="Toolkit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AirFighter.cpp" />
+    <ClCompile Include="AP.cpp" />
+    <ClCompile Include="Box.cpp" />
+    <ClCompile Include="BUFF.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="Effect_Blink.cpp" />
+    <ClCompile Include="Effect_Boom.cpp" />
+    <ClCompile Include="Fighter.cpp" />
+    <ClCompile Include="Effect_Flare.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="HeatSource.cpp" />
+    <ClCompile Include="Missile.cpp" />
+    <ClCompile Include="Skill.cpp" />
+    <ClCompile Include="Skill_Blink.cpp" />
+    <ClCompile Include="Skill_Flare.cpp" />
+    <ClCompile Include="Skill_Missile.cpp" />
+    <ClCompile Include="Toolkit.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

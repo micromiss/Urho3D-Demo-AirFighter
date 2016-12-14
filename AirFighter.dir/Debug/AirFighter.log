@@ -1,33 +1,6 @@
-﻿Build started 2016/12/14 16:22:19.
+﻿Build started 2016/12/14 16:35:43.
      1>Project "D:\Project\Urho3D\AirFighter\AirFighter.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         E:\Visual Studio 2015\VC\bin\x86_amd64\CL.exe /c /I"E:\!Package\Urho3D-Build\include" /I"E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty" /I"E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Bullet" /I"E:\!Package\Urho3D-Build\include\Urho3D\ThirdParty\Lua" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D URHO3D_PROFILING /D URHO3D_LOGGING /D URHO3D_THREADING /D URHO3D_ANGELSCRIPT /D URHO3D_LUA /D TOLUA_RELEASE /D URHO3D_NAVIGATION /D URHO3D_NETWORK /D URHO3D_PHYSICS /D URHO3D_URHO2D /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"AirFighter.dir\Debug\\" /Fd"AirFighter.dir\Debug\vc140.pdb" /Gd /TP /errorReport:prompt AP.cpp AirFighter.cpp BUFF.cpp Box.cpp Bullet.cpp Effect.cpp Effect_Blink.cpp Effect_Boom.cpp Effect_Flare.cpp Fighter.cpp GameObject.cpp HeatSource.cpp Missile.cpp Skill.cpp Skill_Blink.cpp Skill_Flare.cpp Skill_Missile.cpp
-         AP.cpp
-         AirFighter.cpp
-     1>AirFighter.cpp(171): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-     1>AirFighter.cpp(354): warning C4018: '<': signed/unsigned mismatch
-     1>AirFighter.cpp(513): warning C4018: '<': signed/unsigned mismatch
-         BUFF.cpp
-         Box.cpp
-         Bullet.cpp
-         Effect.cpp
-         Effect_Blink.cpp
-         Effect_Boom.cpp
-         Effect_Flare.cpp
-         Fighter.cpp
-     1>Fighter.cpp(147): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-     1>Fighter.cpp(157): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-         GameObject.cpp
-         HeatSource.cpp
-         Missile.cpp
-     1>Missile.cpp(100): warning C4018: '<': signed/unsigned mismatch
-         Skill.cpp
-         Skill_Blink.cpp
-         Skill_Flare.cpp
-         Skill_Missile.cpp
-         Generating Code...
-     1>d:\project\urho3d\airfighter\box.cpp(103): warning C4700: uninitialized local variable 'otherBody' used
-       Link:
+     1>Link:
          E:\Visual Studio 2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Project\Urho3D\AirFighter\bin\AirFighter_d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\!Package\Urho3D-Build\lib\Urho3D_d.lib" user32.lib gdi32.lib winmm.lib imm32.lib ole32.lib oleaut32.lib version.lib uuid.lib ws2_32.lib winmm.lib d3dcompiler.lib d3d9.lib imm32.lib ole32.lib oleaut32.lib version.lib uuid.lib ws2_32.lib d3dcompiler.lib d3d9.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Project/Urho3D/AirFighter/bin/AirFighter_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Project/Urho3D/AirFighter/Debug/AirFighter_d.lib" /MACHINE:X64  /machine:x64 AirFighter.dir\Debug\AirFighter.obj
          AirFighter.dir\Debug\AP.obj
          AirFighter.dir\Debug\Box.obj
@@ -63,4 +36,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:20.35
+Time Elapsed 00:00:03.58

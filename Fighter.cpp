@@ -58,6 +58,8 @@ Fighter::Fighter(Context* context) : GameObject(context)
 	///Set bullets type
 	///Test bullets
 	testcnt_ = 0;
+	///4test
+	nettest1209_ = 0;
 }
 
 void Fighter::RegisterObject(Context* context)
@@ -83,36 +85,44 @@ void Fighter::Start()
 	staticsprite->SetSprite(sprite2d);
 
 	/// Add rigidbody
-	rigibody2d_ = node->CreateComponent<RigidBody2D>();
+	rigibody2d_ = node->CreateComponent<RigidBody2D>(LOCAL);
 	rigibody2d_->SetBodyType(BT_DYNAMIC);
 	rigibody2d_->SetMass(GetMass());
 
 	/// Add collisionbox
-	collisionbox2d_ = node->CreateComponent<CollisionBox2D>();
+	collisionbox2d_ = node->CreateComponent<CollisionBox2D>(LOCAL);
 	collisionbox2d_->SetSize(GetCollisionSize());
 
 	/// BUFF
 	// HeatSource
-	HeatSource* heatsource_ = node->CreateComponent<HeatSource>();
+	HeatSource* heatsource_ = node->CreateComponent<HeatSource>(LOCAL);
 	heatsource_->SetOwner(SharedPtr<Node>(node));
 	heatsource_->SetAttraction(3.0f);
-
+	
 	/// Skills
 	// Missile
-	Skill_Missile* skillMissile = node->CreateComponent<Skill_Missile>();
+	Skill_Missile* skillMissile = node->CreateComponent<Skill_Missile>(LOCAL);
 	skillMissile->SetTriggerKey(CTRL_Q);
 	// Flare
-	Skill_Flare* skillFlare = node->CreateComponent<Skill_Flare>();
-	skillFlare->SetTriggerKey(CTRL_W);
+	Skill_Flare* skillFlare = node->CreateComponent<Skill_Flare>(LOCAL);
+	skillFlare->SetTriggerKey(CTRL_W);	
 	// Blink
-	Skill_Blink* skillBlink = node->CreateComponent<Skill_Blink>();
+	Skill_Blink* skillBlink = node->CreateComponent<Skill_Blink>(LOCAL);
 	skillBlink->SetTriggerKey(CTRL_E);
 	/// Add some static buff to the fighter
 	//node->CreateComponent<HeatSource>();
 }
 
-void Fighter::FixedUpdate(float timeStep)
+void Fighter::Update(float timeStep)
 {
+	//nettest1209_++;
+	//Toolkit::Print(String(nettest1209_));
+}
+
+void Fighter::FixedUpdate(float timeStep)
+{		
+	/// Clients should not update the component on its own
+
 	Node* node = GetNode();
 	///Acceleration
 	if (controls_.IsDown(CTRL_UP)) {
@@ -158,9 +168,9 @@ void Fighter::FixedUpdate(float timeStep)
 	rigibody2d_->SetLinearVelocity(Vector2(towards_.x_, towards_.y_).Normalized() * speed_);
 
 	/// If the fighter'hp <=0 ,then desory it.
-	if (GetHp() <= 0.0f) this->Destoryed();
-
+	if (GetHp() <= 0.0f) this->Destoryed();	
 }
+
 
 void Fighter::Fire()
 {
@@ -173,7 +183,7 @@ void Fighter::Fire()
 		testcnt_++;
 		if (testcnt_ < 15)  return;
 		Node* bullet0 = scene->CreateChild("bullet", REPLICATED);
-		bullet0->CreateComponent<AP>();
+		bullet0->CreateComponent<AP>(LOCAL);
 		// Set the ownership of the bullet to the fighter
 		bullet0->GetComponent<AP>()->SetProducer(node);
 		// Set the position and rotation of the bullet

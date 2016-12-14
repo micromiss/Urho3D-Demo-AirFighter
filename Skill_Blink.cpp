@@ -71,7 +71,7 @@ void Skill_Blink::Update(float timeStep)
 	// Blink from
 	SharedPtr<Node>blinkStart_(scene_->CreateChild("BlinkStart", REPLICATED));
 	blinkStart_->SetPosition(node->GetPosition());
-	Effect_Blink* blinkStartComponent = blinkStart_->CreateComponent<Effect_Blink>();
+	Effect_Blink* blinkStartComponent = blinkStart_->CreateComponent<Effect_Blink>(LOCAL);
 	blinkStartComponent->SetDuration(0.4f);
 	//node->CreateComponent<Effect_Blink>();
 	// Move the fighter
@@ -81,7 +81,7 @@ void Skill_Blink::Update(float timeStep)
 	// Blink to
 	SharedPtr<Node>blinkEnd_(scene_->CreateChild("BlinkEnd", REPLICATED));
 	blinkEnd_->SetPosition(node->GetPosition());
-	Effect_Blink* blinkEndComponent = blinkEnd_->CreateComponent<Effect_Blink>();
+	Effect_Blink* blinkEndComponent = blinkEnd_->CreateComponent<Effect_Blink>(LOCAL);
 	blinkEndComponent->SetDuration(0.8f);
 	
 	/// Reset the cooldowntimer

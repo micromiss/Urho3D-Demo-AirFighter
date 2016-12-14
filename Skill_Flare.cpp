@@ -67,7 +67,7 @@ void Skill_Flare::Update(float timeStep)
 	// Whether the key to the skill is triggered
 	if (!controls.IsDown(GetTriggerKey())) return;
 	// Trigger the skill
-	node->CreateComponent<Effect_Flare>();
+	node->CreateComponent<Effect_Flare>(LOCAL);
 	// Reset the cooldowntimer
 	cooldownTimer_ = GetCooldown();
 }

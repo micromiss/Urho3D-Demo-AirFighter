@@ -23,6 +23,8 @@ private:
 	float turningVelocity_;
 	/// test
 	int testcnt_;
+	/// 4test
+	int nettest1209_;
 
 private:
 	/// Member varible
@@ -38,6 +40,7 @@ private:
 	///LIfe-cycle functions
 public:
 	void Start();
+	void Update(float timeStep);
 	void FixedUpdate(float timeStep);
 
 	/// Customized functions

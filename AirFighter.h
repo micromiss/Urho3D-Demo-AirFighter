@@ -107,7 +107,7 @@ private:
 	// Create a button to the button container.
 	Button* CreateButton(SharedPtr<UIElement> buttoncontainer, const String& text, int width);
 	// Create a flag to show text(3d)
-	SharedPtr<Node>CreateFlag(Scene* scene, const String& text, float x, float y);
+	SharedPtr<Node>CreateFlag(Scene* scene, const String& text, float x, float y); 
 	// Create a flag as one's child
 	SharedPtr<Node>CreateFlag(SharedPtr<Node> parent, const String& text, float x, float y);
 

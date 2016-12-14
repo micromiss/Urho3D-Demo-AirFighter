@@ -16,17 +16,20 @@
 #include <Urho3D/Urho2D/PhysicsEvents2D.h>
 #include <Urho3D/Urho2D/RigidBody2D.h>
 
+#include <Urho3D/Network/Network.h>
+#include <Urho3D/Network/NetworkEvents.h>
+
 #include <Urho3D/Urho2D/Sprite2D.h>
 #include <Urho3D/Urho2D/AnimatedSprite2D.h>
 #include <Urho3D/Urho2D/AnimationSet2D.h>
 
 #include "GameObject.h"
+#include "Toolkit.h"
 
 GameObject::GameObject(Context *context) :
 	LogicComponent(context)
 {
-	SetUpdateEventMask(USE_FIXEDUPDATE);
-
+	//SetUpdateEventMask(USE_FIXEDUPDATE);
 }
 
 void GameObject::RegisterObject(Context* context)
@@ -35,6 +38,11 @@ void GameObject::RegisterObject(Context* context)
 }
 
 void GameObject::Start()
+{
+
+}
+
+void GameObject::Update(float timeStep)
 {
 
 }
@@ -57,3 +65,4 @@ void GameObject::Destoryed()
 {
 
 }
+

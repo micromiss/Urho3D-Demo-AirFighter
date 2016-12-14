@@ -56,6 +56,12 @@ void Skill_Missile::Update(float timeStep)
 
 void Skill_Missile::FixedUpdate(float timeStep)
 {
+	/// Clients should not update the component on its own
+	Network* network = GetSubsystem<Network>();
+	if (!network->IsServerRunning()) {
+		return;
+	}
+
 	// Fighter node
 	SharedPtr<Node>node(GetNode());
 	// Monitor whether the trigger key is down
@@ -75,8 +81,9 @@ void Skill_Missile::FixedUpdate(float timeStep)
 
 	//Missile* missile = new Missile(context_, node);
 	//missile0->AddComponent(missile, 0, REPLICATED);
-	missile0->CreateComponent<Missile>();
+	missile0->CreateComponent<Missile>(LOCAL);
 	missile0->GetComponent<Missile>()->SetProducer(node);
+	missile0->GetComponent<Missile>()->SetProducerid(node->GetID());
 
 	// Set the position and rotation of the missile
 	Vector3 towards = node->GetComponent<Fighter>()->GetTowards();

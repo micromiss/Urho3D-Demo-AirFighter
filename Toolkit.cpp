@@ -22,5 +22,5 @@ String Toolkit::CutStringBeforeChar(const String& src, const char& target)
 String Toolkit::CutStringAfterChar(const String& src, const char& target)
 {
 	int n = src.Find(target);
-	return src.Substring(n + 1);
+	return src.Substring(n+1);
 }

@@ -17,6 +17,9 @@
 #include <Urho3D/Urho2D/RigidBody2D.h>
 #include <Urho3D/Container/Vector.h>
 
+#include <Urho3D/Network/Network.h>
+#include <Urho3D/Network/NetworkEvents.h>
+
 #include <Urho3D/Urho2D/Sprite2D.h>
 #include <Urho3D/Urho2D/AnimatedSprite2D.h>
 #include <Urho3D/Urho2D/AnimationSet2D.h>
@@ -34,6 +37,7 @@ Missile::Missile(Context* context) : GameObject(context)
 	SetDetectionRange(3.0f);
 	SetBoomRange(0.3f);
 	SetDamage(20.0f);
+	duration_ = 0.0f;
 }
 
 Missile::Missile(Context* context, SharedPtr<Node>producer) : GameObject(context)
@@ -43,6 +47,7 @@ Missile::Missile(Context* context, SharedPtr<Node>producer) : GameObject(context
 	SetDetectionRange(3.0f);
 	SetBoomRange(0.3f);
 	SetDamage(20.0f);
+	duration_ = 0.0f;
 }
 
 void Missile::RegisterObject(Context* context)
@@ -79,17 +84,22 @@ void Missile::Update(float timeStep)
 
 void Missile::FixedUpdate(float timeStep)
 {
+	/// Update the duration
+	duration_ += timeStep;
+	// Clear the missiles 
+	if (duration_ > 10.0f) node_->Remove();
+
 	RigidBody2D* rigidbody2d = node_->GetComponent<RigidBody2D>();
 	// Set Rotation
 	Vector2 velocity = rigidbody2d->GetLinearVelocity();
 	node_->SetWorldRotation(Quaternion(Vector3::UP, velocity));
 	// Apply thrust to the missile
-	rigidbody2d->ApplyForceToCenter(velocity.Normalized()*thrust, true);
+	rigidbody2d->ApplyForceToCenter(velocity.Normalized()*thrust,true);
 	// Tracking targets
 	if (targetnodes_.Empty()) return;
 	for (int i = 0; i < targetnodes_.Size(); i++)
 	{
-		Toolkit::Print(targetnodes_[i]->GetName());
+		//Toolkit::Print(targetnodes_[i]->GetName());
 		HeatSource* heatsource = targetnodes_[i]->GetComponent<HeatSource>();
 		float attraction = heatsource->GetAttraction();
 		// Calculate the force
@@ -98,38 +108,44 @@ void Missile::FixedUpdate(float timeStep)
 		// Track it!
 		rigidbody2d->ApplyForce(force*attraction, Vector2(0.0f, 0.0f), true);
 		// If the target is in the boomrange,then boom!
-		float distance = (node_->GetPosition2D() - targetnodes_[i]->GetPosition2D()).Length();
+		float distance = (node_->GetPosition2D() - targetnodes_[i]->GetPosition2D()).Length();		
 		if (distance < GetBoomRange()) {
 			GameObject* targetobject = targetnodes_[i]->GetDerivedComponent<GameObject>();
 			targetobject->Damaged(GetDamage());
 			UnsubscribeFromAllEvents();
 			node_->Remove();
 		}
-
+		
 	}
+
 }
 
 void Missile::HandleContactBegin(StringHash eventType, VariantMap& eventData)
-{
-	using namespace NodeBeginContact2D;
+{	
+	/// Clients should not update the component on its own
+	using namespace NodeBeginContact2D;	
 	SharedPtr<Node>othernode(static_cast<Node*>(eventData[P_OTHERNODE].GetPtr()));
 	// Do not track the launcher and the launcher's flare
 	//if (othernode == GetProducer()) return;
-	HeatSource* otherSource = othernode->GetComponent<HeatSource>();
+	HeatSource* otherSource = othernode->GetComponent<HeatSource>();	
 	//If the other node is not a heatsource then return
 	if (!otherSource)return;
 	//Toolkit::Print("Source:" + otherSource->GetNode()->GetName()+" Fighter:"+GetProducer()->GetName());
-	if (otherSource->GetOwner() == GetProducer()) return;
-	// Whether the other node is a heat source
-	HeatSource* heatsource = othernode->GetComponent<HeatSource>();
-	if (!heatsource) return;
+	//Toolkit::Print("target:" + String(otherSource->GetOwner()->GetID()));
+	if (otherSource->GetOwner() == GetProducer()) return;	
 	// If othernode is a heatsource then push it into the targetqueue;
-	targetnodes_.Push(othernode);
+	targetnodes_.Push(othernode);	
 	//Toolkit::Print("got you!");
 }
 
 void Missile::HandleContactEnd(StringHash eventType, VariantMap& eventData)
 {
+	/// Clients should not update the component on its own
+	Network* network = GetSubsystem<Network>();
+	if (!network->IsServerRunning()) {
+		return;
+	}
+
 	using namespace Urho3D;
 	// If the target is out of tracking range, then erase it.
 	using namespace NodeEndContact2D;
@@ -137,7 +153,7 @@ void Missile::HandleContactEnd(StringHash eventType, VariantMap& eventData)
 	HeatSource* heatsource = othernode->GetComponent<HeatSource>();
 	if (!heatsource) return;
 	//4test Find it in the queue and erase it
-	if (targetnodes_.Contains(othernode))	targetnodes_.Erase(targetnodes_.Find(othernode));
+	if(targetnodes_.Contains(othernode))	targetnodes_.Erase(	targetnodes_.Find(othernode));
 	//Toolkit::Print("lost you!");
 }
 

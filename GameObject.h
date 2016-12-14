@@ -51,8 +51,9 @@ public:
 	static void RegisterObject(Context* context);
 	/// Handle startup. Called by LogicComponent base class.
 	virtual void Start();
+	/// Handle Update
+	virtual void Update(float timeStep);
 	/// Handle physics world update. Called by LogicComponent base class.
 	virtual void FixedUpdate(float timeStep);
-
 
 };

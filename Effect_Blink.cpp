@@ -13,6 +13,9 @@
 #include <Urho3D/Urho2D/ParticleEffect2D.h>
 #include <Urho3D/Urho2D/ParticleEmitter2D.h>
 
+#include <Urho3D/Network/Network.h>
+#include <Urho3D/Network/NetworkEvents.h>
+
 #include"HeatSource.h"
 #include"Effect.h"
 #include"Effect_Blink.h"
@@ -45,6 +48,7 @@ void Effect_Blink::Start()
 
 void Effect_Blink::Update(float timeStep)
 {
+	//Toolkit::Print("Blink"+String(Random(1.0f)));
 	cal_duration_ += timeStep;
 	if (cal_duration_ > duration_)
 		Stop();

@@ -13,13 +13,16 @@
 #include <Urho3D/Urho2D/ParticleEffect2D.h>
 #include <Urho3D/Urho2D/ParticleEmitter2D.h>
 
+#include <Urho3D/Network/Network.h>
+#include <Urho3D/Network/NetworkEvents.h>
+
 #include"Effect.h"
 #include"Toolkit.h"
 
 Effect::Effect(Context *context) :
 	LogicComponent(context)
 {
-	
+
 }
 
 void Effect::RegisterObject(Context *context)

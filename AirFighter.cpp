@@ -81,7 +81,7 @@ AirFighter::AirFighter(Context* context) :
 
 	Effect::RegisterObject(context);
 	Effect_Flare::RegisterObject(context);
-	Effect_Blink::RegisterObject(context);
+	Effect_Blink::RegisterObject(context);	
 	Effect_Boom::RegisterObject(context);
 
 	Skill::RegisterObject(context);
@@ -246,7 +246,7 @@ void AirFighter::InitiateGameMap(Scene* scene)
 	staticsprite2d->SetSprite(sprite2d);
 	background->SetPosition(Vector3(0.0f, 0.0f, 10.0f));
 	// Initiate partical emitter background
-	SharedPtr<Node> particleBackgroundNode_(scene->CreateChild("particleBackground", REPLICATED));
+	SharedPtr<Node> particleBackgroundNode_(scene->CreateChild("particleBackground",REPLICATED));
 	ParticleEffect2D* particleEffect = cache->GetResource<ParticleEffect2D>("Urho2D/background.pex");
 	if (!particleEffect)
 		return;
@@ -256,7 +256,7 @@ void AirFighter::InitiateGameMap(Scene* scene)
 	//(4test) Create some boxes for test
 	Node* box0 = scene->CreateChild("box0", REPLICATED);
 	box0->SetPosition(Vector3(0.0f, 3.0f, 0.0f));
-	box0->CreateComponent<Box>();
+	box0->CreateComponent<Box>(LOCAL);
 }
 
 void AirFighter::InitiateViewport(Context* context, Scene* scene, Node* parent)
@@ -353,6 +353,8 @@ void AirFighter::HandleUpdate(StringHash eventType, VariantMap& eventData)
 		// Process each connection
 		for (int i = 0; i < allConnections.Size(); i++) {
 			SharedPtr<Connection> connection = allConnections[i];
+			//4test
+			//connection->SetScene(scene_);
 			// Get controls from the client
 			Controls playerControls = connection->GetControls();
 			// Control the object which belongs to the player
@@ -399,7 +401,7 @@ SharedPtr<Node> AirFighter::SpawnPlayer()
 	fighter->SetPosition(Vector3(0.0f, 0.0f, 0.0f));
 	fighter->CreateComponent<Fighter>();
 	/// 1.5 Create the label of the fighter
-	CreateFlag(fighter, "migu", -0.15f, 0.4f);
+	CreateFlag(fighter, "migu", -0.15f, 0.4f);	
 	/// 2.Create a new camera	follows the fighter
 	Graphics* graphics = GetSubsystem<Graphics>();
 	String cameraname = "camera_migu";
@@ -487,8 +489,8 @@ void AirFighter::HandleConnectButton(StringHash eventType, VariantMap& eventData
 
 	/// Identity & IP address (format:  'username:ip' , e.g 'Alex:192.168.150.132')
 	VariantMap identity;
-	String name_ip = IdentityEdit_->GetText();
-	//String name_ip = "Alex:192.168.150.132";
+	//String name_ip = IdentityEdit_->GetText();
+	String name_ip = "Alex:192.168.150.132";
 	/// Identity(username)
 	identity["UserName"] = Toolkit::CutStringBeforeChar(name_ip, ':');
 	username_ = Toolkit::CutStringBeforeChar(name_ip, ':');

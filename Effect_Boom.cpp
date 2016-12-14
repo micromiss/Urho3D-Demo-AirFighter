@@ -13,6 +13,9 @@
 #include <Urho3D/Urho2D/ParticleEffect2D.h>
 #include <Urho3D/Urho2D/ParticleEmitter2D.h>
 
+#include <Urho3D/Network/Network.h>
+#include <Urho3D/Network/NetworkEvents.h>
+
 #include"HeatSource.h"
 #include"Effect.h"
 #include"Effect_Boom.h"
@@ -44,6 +47,12 @@ void Effect_Boom::Start()
 
 void Effect_Boom::Update(float timeStep)
 {
+	/// Clients should not update the component on its own
+	Network* network = GetSubsystem<Network>();
+	if (!network->IsServerRunning()) {
+		return;
+	}
+
 	cal_duration_ += timeStep;
 	if (cal_duration_ > duration_)
 		Stop();
@@ -58,4 +67,6 @@ void Effect_Boom::Stop()
 {
 	// Stop Flareing (animation)
 	node->Remove();
+	// Remove the component
+	Remove();
 }

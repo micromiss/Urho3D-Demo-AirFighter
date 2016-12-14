@@ -24,6 +24,10 @@ private:
 	Vector<SharedPtr<Node>>targetnodes_;
 	/// Owner of the missile
 	SharedPtr<Node>producer_;
+	/// Owner'ID of the missile
+	int producerid_;
+	/// Time the node has lasted for
+	float duration_;
 
 public:
 	float GetThrust() { return thrust; }
@@ -36,6 +40,8 @@ public:
 	void SetDamage(float m_damage) { damage = m_damage; }
 	SharedPtr<Node> GetProducer() { return producer_; }
     void SetProducer(SharedPtr<Node> m_producer) { producer_ = m_producer; }
+	int GetProducerid() { return producerid_; }
+	void SetProducerid(int m_producerid) { producerid_ = m_producerid; }
 
 	/// Life-cycle function
 public:

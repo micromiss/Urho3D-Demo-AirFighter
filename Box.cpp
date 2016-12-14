@@ -23,6 +23,8 @@
 #include "Box.h"
 #include "BUFF.h"
 #include "HeatSource.h"
+#include "Effect_Boom.h"
+#include "Toolkit.h"
 
 Box::Box(Context* context) : GameObject(context)
 {
@@ -77,12 +79,15 @@ void Box::Damaged(float damage)
 	if (newHP > GetMaxHp()) SetHp(GetMaxHp());
 	else if (newHP < 0) SetHp(0);
 	else SetHp(newHP);
+	//Toolkit::Print(Tring(newHP));
 }
 
 void Box::Destoryed()
 {
 	Node* node = GetNode();
-	node->Remove();
+	//node->Remove();
+	// The Effect_Boom will remove the node when it ends.
+	node->CreateComponent<Effect_Boom>();
 }
 
 void Box::FixedUpdate(float timeStep)
